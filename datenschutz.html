@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Datenschutzhinweise von deinMalbuch.de.">
+  <title>Datenschutz — deinMalbuch.de</title>
+  <style>
+
+    :root {
+      --blue: #4678ff;
+      --dark: #202534;
+      --text: #444b5d;
+      --muted: #747b8d;
+      --background: #fbfaf7;
+      --white: #ffffff;
+      --line: #e9e7e2;
+      --radius: 24px;
+      --shadow: 0 15px 40px rgba(35,42,65,0.08);
+      --max-width: 1120px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--background);
+      color: var(--dark);
+      line-height: 1.7;
+    }
+    a { color: inherit; }
+    .site-header {
+      padding: 18px 0;
+      background: rgba(251,250,247,.95);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 1px solid rgba(0,0,0,.05);
+      backdrop-filter: blur(12px);
+    }
+    .site-header-inner, .site-footer-inner, .page-hero-inner, .content-inner {
+      width: min(calc(100% - 40px), var(--max-width));
+      margin: 0 auto;
+    }
+    .site-header-inner, .site-footer-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 800;
+      text-decoration: none;
+      letter-spacing: -.8px;
+    }
+    .logo span { color: var(--blue); }
+    .language-toggle {
+      display: flex;
+      background: var(--white);
+      border: 1px solid var(--line);
+      padding: 4px;
+      border-radius: 999px;
+    }
+    .language-toggle button {
+      border: 0;
+      background: transparent;
+      padding: 8px 12px;
+      border-radius: 999px;
+      cursor: pointer;
+      font-weight: 700;
+      color: var(--muted);
+    }
+    .language-toggle button.active {
+      background: var(--dark);
+      color: var(--white);
+    }
+    .page-hero {
+      padding: 76px 0 38px;
+      text-align: center;
+    }
+    .eyebrow {
+      display: inline-block;
+      background: #eef3ff;
+      color: var(--blue);
+      border-radius: 999px;
+      padding: 8px 16px;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+    .page-hero h1 {
+      margin: 0;
+      font-size: clamp(2.5rem, 7vw, 4.6rem);
+      line-height: 1;
+      letter-spacing: -2px;
+    }
+    .lead {
+      max-width: 720px;
+      margin: 22px auto 0;
+      color: var(--text);
+      font-size: 1.08rem;
+    }
+    .content-section { padding: 22px 0 72px; }
+    .text-block {
+      max-width: 820px;
+      background: var(--white);
+      padding: 38px;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+    .text-block h2 {
+      margin: 34px 0 10px;
+      font-size: 1.3rem;
+    }
+    .text-block h2:first-child { margin-top: 0; }
+    .text-block p { color: var(--text); }
+    .text-block a { color: var(--blue); }
+    .site-footer {
+      padding: 46px 0 32px;
+      color: var(--muted);
+      font-size: .95rem;
+    }
+    .site-footer-inner {
+      border-top: 1px solid var(--line);
+      padding-top: 26px;
+    }
+    .footer-links { display: flex; gap: 18px; flex-wrap: wrap; }
+    .footer-links a { text-decoration: none; }
+    @media (max-width: 600px) {
+      .page-hero { padding: 54px 0 30px; }
+      .text-block { padding: 26px; }
+    }
+
+  </style>
+</head>
+<body
+  data-title-de="Datenschutz — deinMalbuch.de"
+  data-title-en="Privacy — deinMalbuch.de"
+  data-description-de="Datenschutzhinweise von deinMalbuch.de."
+  data-description-en="Privacy information for deinMalbuch.de."
+>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a href="/" class="logo">dein<span>Malbuch</span>.de</a>
+      <div class="language-toggle" aria-label="Sprache / Language">
+        <button type="button" data-language="de" class="active" aria-pressed="true">DE</button>
+        <button type="button" data-language="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+<section class="page-hero">
+    <div class="page-hero-inner">
+      <p
+        class="eyebrow"
+        data-de="Rechtliches"
+        data-en="Legal"
+      >
+        Rechtliches
+      </p>
+
+      <h1
+        data-de="Datenschutz"
+        data-en="Privacy"
+      >
+        Datenschutz
+      </h1>
+
+      <p
+        class="lead"
+        data-de="Hier erfährst du, welche personenbezogenen Daten beim Besuch dieser Website und bei einer Kontaktaufnahme verarbeitet werden."
+        data-en="This page explains which personal data may be processed when you visit this website or contact me."
+      >
+        Hier erfährst du, welche personenbezogenen Daten beim Besuch dieser
+        Website und bei einer Kontaktaufnahme verarbeitet werden.
+      </p>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="content-inner text-block reveal">
+
+      <h2
+        data-de="Verantwortlicher"
+        data-en="Data controller"
+      >
+        Verantwortlicher
+      </h2>
+
+      <p>
+        David Wollin<br>
+        Ziegelweg 8<br>
+        72141 Walddorfhäslach<br>
+        Deutschland<br>
+
+        Telefon:
+        <a href="tel:+4971279349678">
+          +49 7127 9349678
+        </a><br>
+
+        E-Mail:
+        <a href="mailto:hallo@deinmalbuch.de">
+          hallo@deinmalbuch.de
+        </a>
+      </p>
+
+
+      <h2
+        data-de="Hosting über GitHub Pages"
+        data-en="Hosting through GitHub Pages"
+      >
+        Hosting über GitHub Pages
+      </h2>
+
+      <p
+        data-de="Diese Website wird über GitHub Pages bereitgestellt, einen Dienst von GitHub. Beim Aufruf der Website werden technisch notwendige Verbindungsdaten verarbeitet. Dazu kann insbesondere die IP-Adresse des aufrufenden Geräts gehören. GitHub gibt an, dass IP-Adressen von Besuchern von GitHub-Pages-Websites aus Sicherheitsgründen protokolliert und gespeichert werden."
+        data-en="This website is provided through GitHub Pages, a service operated by GitHub. When the website is accessed, technically necessary connection data is processed. This may include the IP address of the accessing device. GitHub states that visitor IP addresses for GitHub Pages websites are logged and stored for security purposes."
+      >
+        Diese Website wird über GitHub Pages bereitgestellt, einen Dienst von
+        GitHub. Beim Aufruf der Website werden technisch notwendige
+        Verbindungsdaten verarbeitet. Dazu kann insbesondere die IP-Adresse des
+        aufrufenden Geräts gehören. GitHub gibt an, dass IP-Adressen von
+        Besuchern von GitHub-Pages-Websites aus Sicherheitsgründen protokolliert
+        und gespeichert werden.
+      </p>
+
+      <p
+        data-de="Die Verarbeitung erfolgt, soweit sie in meinem Verantwortungsbereich liegt, auf Grundlage meines berechtigten Interesses an einer sicheren, stabilen und technisch funktionsfähigen Bereitstellung dieser Website."
+        data-en="To the extent that this processing falls within my responsibility, it is based on my legitimate interest in providing a secure, stable and technically functional website."
+      >
+        Die Verarbeitung erfolgt, soweit sie in meinem Verantwortungsbereich
+        liegt, auf Grundlage meines berechtigten Interesses an einer sicheren,
+        stabilen und technisch funktionsfähigen Bereitstellung dieser Website.
+      </p>
+
+
+      <h2
+        data-de="Kontaktaufnahme per E-Mail oder Telefon"
+        data-en="Contact by email or telephone"
+      >
+        Kontaktaufnahme per E-Mail oder Telefon
+      </h2>
+
+      <p
+        data-de="Wenn du mich per E-Mail oder telefonisch kontaktierst, verarbeite ich die von dir mitgeteilten Angaben, um deine Anfrage zu beantworten und mögliche Anschlussfragen zu bearbeiten. Dazu können insbesondere dein Name, deine Kontaktdaten und der Inhalt deiner Nachricht gehören."
+        data-en="When you contact me by email or telephone, I process the information you provide in order to respond to your inquiry and handle possible follow-up questions. This may include your name, contact details and the content of your message."
+      >
+        Wenn du mich per E-Mail oder telefonisch kontaktierst, verarbeite ich
+        die von dir mitgeteilten Angaben, um deine Anfrage zu beantworten und
+        mögliche Anschlussfragen zu bearbeiten. Dazu können insbesondere dein
+        Name, deine Kontaktdaten und der Inhalt deiner Nachricht gehören.
+      </p>
+
+      <p
+        data-de="Die Verarbeitung erfolgt zur Bearbeitung deiner Anfrage. Soweit sich deine Anfrage auf eine mögliche vertragliche Zusammenarbeit oder Bestellung bezieht, dient die Verarbeitung außerdem der Durchführung vorvertraglicher Maßnahmen."
+        data-en="The processing is carried out in order to handle your inquiry. If your inquiry relates to a possible contractual relationship or order, the processing may also be necessary in order to take steps prior to entering into a contract."
+      >
+        Die Verarbeitung erfolgt zur Bearbeitung deiner Anfrage. Soweit sich
+        deine Anfrage auf eine mögliche vertragliche Zusammenarbeit oder
+        Bestellung bezieht, dient die Verarbeitung außerdem der Durchführung
+        vorvertraglicher Maßnahmen.
+      </p>
+
+
+      <h2
+        data-de="Speicherdauer"
+        data-en="Storage period"
+      >
+        Speicherdauer
+      </h2>
+
+      <p
+        data-de="Personenbezogene Daten werden nur so lange gespeichert, wie dies zur Bearbeitung der jeweiligen Anfrage oder Bestellung erforderlich ist oder gesetzliche Aufbewahrungspflichten bestehen. Danach werden die Daten gelöscht, sofern keine weitere Rechtsgrundlage für die Speicherung besteht."
+        data-en="Personal data is stored only for as long as necessary to process the relevant inquiry or order or as required by statutory retention obligations. The data is then deleted unless another legal basis permits continued storage."
+      >
+        Personenbezogene Daten werden nur so lange gespeichert, wie dies zur
+        Bearbeitung der jeweiligen Anfrage oder Bestellung erforderlich ist
+        oder gesetzliche Aufbewahrungspflichten bestehen. Danach werden die
+        Daten gelöscht, sofern keine weitere Rechtsgrundlage für die Speicherung
+        besteht.
+      </p>
+
+
+      <h2
+        data-de="Cookies, Analyse und externe Inhalte"
+        data-en="Cookies, analytics and external content"
+      >
+        Cookies, Analyse und externe Inhalte
+      </h2>
+
+      <p
+        data-de="Diese Website verwendet derzeit keine eigenen Analyse- oder Marketing-Cookies. Es werden keine Analysewerkzeuge, Werbenetzwerke, Kontaktformulare oder eingebetteten Videos eingesetzt."
+        data-en="This website currently does not use its own analytics or marketing cookies. No analytics tools, advertising networks, contact forms or embedded videos are used."
+      >
+        Diese Website verwendet derzeit keine eigenen Analyse- oder
+        Marketing-Cookies. Es werden keine Analysewerkzeuge, Werbenetzwerke,
+        Kontaktformulare oder eingebetteten Videos eingesetzt.
+      </p>
+
+      <p
+        data-de="Der Sprachschalter speichert die ausgewählte Sprache ausschließlich lokal im Browser. Diese Einstellung wird nicht an mich übertragen und nicht zu Analyse- oder Werbezwecken verwendet."
+        data-en="The language switch stores the selected language only locally in your browser. This setting is not transmitted to me and is not used for analytics or advertising purposes."
+      >
+        Der Sprachschalter speichert die ausgewählte Sprache ausschließlich
+        lokal im Browser. Diese Einstellung wird nicht an mich übertragen und
+        nicht zu Analyse- oder Werbezwecken verwendet.
+      </p>
+
+
+      <h2
+        data-de="Deine Rechte"
+        data-en="Your rights"
+      >
+        Deine Rechte
+      </h2>
+
+      <p
+        data-de="Du hast im Rahmen der gesetzlichen Voraussetzungen das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit. Außerdem kannst du einer Verarbeitung widersprechen oder eine erteilte Einwilligung mit Wirkung für die Zukunft widerrufen."
+        data-en="Subject to the applicable legal requirements, you have the right to access, correct, delete or restrict the processing of your personal data and to receive your data in a portable format. You may also object to processing or withdraw consent with effect for the future."
+      >
+        Du hast im Rahmen der gesetzlichen Voraussetzungen das Recht auf
+        Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und
+        Datenübertragbarkeit. Außerdem kannst du einer Verarbeitung
+        widersprechen oder eine erteilte Einwilligung mit Wirkung für die
+        Zukunft widerrufen.
+      </p>
+
+      <p
+        data-de="Du hast außerdem das Recht, dich bei einer Datenschutzaufsichtsbehörde zu beschweren."
+        data-en="You also have the right to lodge a complaint with a data protection supervisory authority."
+      >
+        Du hast außerdem das Recht, dich bei einer
+        Datenschutzaufsichtsbehörde zu beschweren.
+      </p>
+
+
+      <h2
+        data-de="Änderungen dieser Datenschutzhinweise"
+        data-en="Changes to this privacy notice"
+      >
+        Änderungen dieser Datenschutzhinweise
+      </h2>
+
+      <p
+        data-de="Diese Datenschutzhinweise werden angepasst, wenn sich die Website, die eingesetzten Dienste oder die rechtlichen Anforderungen ändern."
+        data-en="This privacy notice may be updated if the website, the services used or the legal requirements change."
+      >
+        Diese Datenschutzhinweise werden angepasst, wenn sich die Website,
+        die eingesetzten Dienste oder die rechtlichen Anforderungen ändern.
+      </p>
+
+    </div>
+  </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <div>© 2026 deinMalbuch.de</div>
+      <div class="footer-links">
+        <a href="mailto:hallo@deinmalbuch.de"><span data-de="Kontakt" data-en="Contact">Kontakt</span></a>
+        <a href="/impressum.html"><span data-de="Impressum" data-en="Legal notice">Impressum</span></a>
+        <a href="/datenschutz.html"><span data-de="Datenschutz" data-en="Privacy">Datenschutz</span></a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+
+    const languageButtons = document.querySelectorAll("[data-language]");
+    const translatedElements = document.querySelectorAll("[data-de][data-en]");
+    const metaDescription = document.querySelector('meta[name="description"]');
+
+    function setLanguage(language) {
+      document.documentElement.lang = language;
+
+      translatedElements.forEach((element) => {
+        const translatedText = element.dataset[language];
+        if (translatedText) element.textContent = translatedText;
+      });
+
+      languageButtons.forEach((button) => {
+        const active = button.dataset.language === language;
+        button.classList.toggle("active", active);
+        button.setAttribute("aria-pressed", String(active));
+      });
+
+      const title = language === "en"
+        ? document.body.dataset.titleEn
+        : document.body.dataset.titleDe;
+      if (title) document.title = title;
+
+      const description = language === "en"
+        ? document.body.dataset.descriptionEn
+        : document.body.dataset.descriptionDe;
+      if (metaDescription && description) metaDescription.setAttribute("content", description);
+
+      localStorage.setItem("deinmalbuch-language", language);
+    }
+
+    languageButtons.forEach((button) => {
+      button.addEventListener("click", () => setLanguage(button.dataset.language || "de"));
+    });
+
+    setLanguage(localStorage.getItem("deinmalbuch-language") || "de");
+
+  </script>
+</body>
+</html>
